@@ -1,0 +1,6 @@
+services:
+  web:
+    build: .
+    image: ghcr.io/pusit20574/opsta-web:main
+    ports:
+      - "8080:80"
